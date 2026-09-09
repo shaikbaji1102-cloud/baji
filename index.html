@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- dataLayer must exist before GTM and before any push -->
+<script>window.dataLayer = window.dataLayer || [];</script>
+
+<!-- GTM CODE HERE -->
+
+<title>SDM Real Estate | Property Buying, Selling & Rentals in Hyderabad</title>
+<meta name="description" content="SDM Real Estate helps you buy, sell, rent and invest in Hyderabad property. Verified listings, RERA-checked paperwork, same-day site visits. Call +91 74837 36358.">
+<link rel="canonical" href="https://sdmrealestate.com/">
+<meta name="theme-color" content="#0B5D3B">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="SDM Real Estate">
+<meta property="og:title" content="SDM Real Estate | Property Buying, Selling & Rentals in Hyderabad">
+<meta property="og:description" content="Verified Hyderabad property, RERA-checked paperwork and same-day site visits. Talk to us on +91 74837 36358.">
+<meta property="og:url" content="https://sdmrealestate.com/">
+<!-- Add a 1200x630 image at this path before launch -->
+<meta property="og:image" content="https://sdmrealestate.com/og-image.jpg">
+<meta property="og:locale" content="en_IN">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="SDM Real Estate | Property in Hyderabad">
+<meta name="twitter:description" content="Verified Hyderabad property, RERA-checked paperwork and same-day site visits.">
+<meta name="twitter:image" content="https://sdmrealestate.com/og-image.jpg">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+<style>
+:root{
+  --green:#0B5D3B;
+  --green-dark:#08402A;
+  --ink:#101A15;
+  --ink-soft:#41504A;
+  --stone:#ECEEE9;
+  --surface:#FFFFFF;
+  --gold:#C9A227;
+  --line:#D6DCD6;
+  --radius:14px;
+  --wrap:1140px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--stone);
+  color:var(--ink);
+  font-family:'Manrope',system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;
+  font-size:17px;line-height:1.6;font-weight:400;
+  -webkit-font-smoothing:antialiased;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--green);text-decoration-thickness:1px;text-underline-offset:3px}
+h1,h2,h3{margin:0 0 .5em;line-height:1.15;letter-spacing:-.02em;font-weight:800}
+h1{font-size:clamp(2.1rem,6vw,3.4rem);letter-spacing:-.03em}
+h2{font-size:clamp(1.6rem,3.6vw,2.3rem)}
+h3{font-size:1.12rem;letter-spacing:-.01em}
+p{margin:0 0 1em}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.section{padding:64px 0}
+.section--tight{padding:48px 0}
+.lede{font-size:1.06rem;color:var(--ink-soft);max-width:62ch}
+.head{max-width:60ch;margin-bottom:32px}
+
+/* focus */
+a:focus-visible,button:focus-visible,summary:focus-visible,
+input:focus-visible,textarea:focus-visible,select:focus-visible{
+  outline:3px solid var(--gold);outline-offset:3px;border-radius:6px;
+}
+
+/* buttons */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:10px;
+  min-height:52px;padding:14px 26px;border-radius:999px;
+  font-weight:800;font-size:1rem;text-decoration:none;border:2px solid transparent;
+  cursor:pointer;transition:background-color .18s ease,color .18s ease;
+}
+.btn--call{background:var(--gold);color:#20180A;border-color:var(--gold)}
+.btn--call:hover{background:#B8941F;border-color:#B8941F}
+.btn--ghost{background:transparent;color:#fff;border-color:rgba(255,255,255,.5)}
+.btn--ghost:hover{background:rgba(255,255,255,.12)}
+.btn--dark{background:var(--green);color:#fff;border-color:var(--green)}
+.btn--dark:hover{background:var(--green-dark);border-color:var(--green-dark)}
+.btn--sm{min-height:44px;padding:10px 20px;font-size:.94rem}
+.btn--block{width:100%}
+
+/* ---------- sticky top: announce + header ---------- */
+.topwrap{position:sticky;top:0;z-index:60}
+.announce{
+  background:var(--green-dark);color:#EAF3EE;
+  font-size:.88rem;font-weight:500;
+}
+.announce .wrap{display:flex;align-items:center;justify-content:center;gap:14px;flex-wrap:wrap;padding-top:8px;padding-bottom:8px}
+.announce .dot{width:8px;height:8px;border-radius:50%;background:var(--gold);flex:none}
+.announce a{color:#fff;font-weight:800;text-decoration:underline}
+
+.header{background:var(--green);border-bottom:1px solid rgba(255,255,255,.14)}
+.header .wrap{display:flex;align-items:center;gap:18px;min-height:70px}
+.brand{display:flex;align-items:center;gap:11px;text-decoration:none;color:#fff;margin-right:auto}
+.brand .mark{
+  width:38px;height:38px;flex:none;border-radius:9px;background:var(--gold);
+  display:grid;place-items:center;color:#20180A;font-weight:800;font-size:.95rem;letter-spacing:-.03em;
+}
+.brand b{font-size:1.12rem;font-weight:800;letter-spacing:-.02em;display:block;line-height:1.1}
+.brand span{font-size:.74rem;color:#BBD3C6;font-weight:500;letter-spacing:.01em}
+.nav{display:flex;gap:22px}
+.nav a{color:#DCE9E2;text-decoration:none;font-weight:500;font-size:.96rem;padding:6px 0;border-bottom:2px solid transparent}
+.nav a:hover{color:#fff;border-bottom-color:var(--gold)}
+.nav a[aria-current="page"]{color:#fff;border-bottom-color:var(--gold)}
+.nav-toggle{display:none}
+
+/* ---------- hero ---------- */
+.hero{
+  position:relative;background:var(--green);color:#fff;overflow:hidden;
+  padding:70px 0 78px;
+}
+.hero__plan{
+  position:absolute;inset:0;opacity:.16;pointer-events:none;
+  background-image:
+    linear-gradient(rgba(255,255,255,.55) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(255,255,255,.55) 1px,transparent 1px);
+  background-size:96px 96px;
+  mask-image:linear-gradient(180deg,rgba(0,0,0,.9),transparent 78%);
+  -webkit-mask-image:linear-gradient(180deg,rgba(0,0,0,.9),transparent 78%);
+}
+.hero__plot{position:absolute;right:-60px;top:40px;width:520px;max-width:60vw;opacity:.22;pointer-events:none}
+.hero .wrap{position:relative;z-index:1}
+.hero h1{max-width:16ch;color:#fff}
+.hero p.sub{font-size:1.1rem;color:#CFE3D8;max-width:52ch}
+.usps{list-style:none;display:flex;flex-wrap:wrap;gap:0;margin:22px 0 30px;padding:0}
+.usps li{
+  font-weight:700;font-size:.97rem;color:#fff;padding:2px 18px 2px 0;margin-right:18px;
+  border-right:1px solid rgba(255,255,255,.28);
+}
+.usps li:last-child{border-right:0;margin-right:0;padding-right:0}
+.hero__actions{display:flex;gap:14px;flex-wrap:wrap;align-items:center}
+.trust{
+  margin-top:28px;padding-top:20px;border-top:1px solid rgba(255,255,255,.2);
+  display:flex;gap:34px;flex-wrap:wrap;
+}
+.trust div{max-width:20ch}
+.trust b{display:block;font-size:1.45rem;font-weight:800;letter-spacing:-.02em;color:var(--gold)}
+.trust span{font-size:.88rem;color:#CFE3D8}
+
+/* ---------- cards ---------- */
+.grid{display:grid;gap:18px}
+.g3{grid-template-columns:repeat(3,1fr)}
+.g2{grid-template-columns:repeat(2,1fr)}
+.card{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 24px;
+}
+.card h3{margin-bottom:8px}
+.card p{margin:0;color:var(--ink-soft);font-size:.97rem}
+.icon{width:30px;height:30px;color:var(--green);margin-bottom:14px}
+
+/* services preview */
+.svc{
+  display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--line);
+  border-radius:var(--radius);padding:26px 24px;text-decoration:none;color:inherit;
+  border-left:4px solid var(--green);
+}
+.svc:hover{border-left-color:var(--gold)}
+.svc h3{margin-bottom:8px}
+.svc p{color:var(--ink-soft);font-size:.97rem;margin-bottom:14px}
+.svc em{margin-top:auto;font-style:normal;font-weight:800;color:var(--green);font-size:.94rem;text-decoration:underline;text-underline-offset:4px}
+
+/* steps */
+.steps{counter-reset:s;display:grid;gap:18px;grid-template-columns:repeat(3,1fr)}
+.step{background:transparent;border-top:3px solid var(--green);padding-top:20px}
+.step b{
+  display:inline-grid;place-items:center;width:34px;height:34px;border-radius:50%;
+  background:var(--green);color:#fff;font-size:.95rem;font-weight:800;margin-bottom:12px;
+}
+.step p{color:var(--ink-soft);font-size:.97rem;margin:0}
+
+/* coverage */
+.coverage{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:30px 26px}
+.zones{display:grid;gap:22px;grid-template-columns:repeat(4,1fr);margin:0;padding:0}
+.zone h3{font-size:1rem;margin-bottom:6px;color:var(--green)}
+.zone p{font-size:.95rem;color:var(--ink-soft);margin:0}
+.coverage__foot{margin-top:26px;padding-top:20px;border-top:1px solid var(--line);display:flex;gap:16px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.coverage__foot p{margin:0;font-weight:700;max-width:48ch}
+
+/* testimonials */
+.quote{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:26px 24px}
+.quote p{font-size:1rem;margin-bottom:16px}
+.quote footer{font-size:.9rem;color:var(--ink-soft);font-weight:700;border-top:1px solid var(--line);padding-top:14px}
+.stars{color:var(--gold);letter-spacing:2px;font-size:.95rem;margin-bottom:10px}
+
+/* faq */
+.faq details{background:var(--surface);border:1px solid var(--line);border-radius:12px;margin-bottom:12px}
+.faq summary{
+  cursor:pointer;padding:18px 22px;font-weight:700;font-size:1rem;list-style:none;
+  display:flex;justify-content:space-between;gap:16px;align-items:center;
+}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.5rem;font-weight:400;color:var(--green);line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq .ans{padding:0 22px 20px;color:var(--ink-soft);font-size:.98rem;margin:0}
+
+/* enquiry form */
+.formwrap{display:grid;grid-template-columns:1.2fr 1fr;gap:26px;align-items:start}
+.form{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:30px 28px}
+.field{margin-bottom:18px}
+.field label{display:block;font-weight:700;font-size:.95rem;margin-bottom:7px}
+.field .hint{font-weight:400;color:var(--ink-soft);font-size:.88rem}
+.field input,.field textarea{
+  width:100%;font-family:inherit;font-size:1rem;color:var(--ink);
+  background:var(--stone);border:1px solid var(--line);border-radius:10px;
+  padding:14px 15px;min-height:52px;
+}
+.field textarea{min-height:120px;resize:vertical}
+.field input::placeholder,.field textarea::placeholder{color:#8A968F}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.formnote{font-size:.88rem;color:var(--ink-soft);margin:14px 0 0}
+.formside{
+  background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);
+  padding:26px 24px;border-top:4px solid var(--gold);
+}
+.formside h3{margin-bottom:10px}
+.formside p{color:var(--ink-soft);font-size:.96rem}
+.formside .num{
+  display:inline-block;font-size:1.5rem;font-weight:800;letter-spacing:-.02em;
+  color:var(--green);text-decoration:none;margin:6px 0 16px;
+}
+.formside .num:hover{text-decoration:underline}
+
+
+/* form status messages */
+.formmsg{border-radius:12px;padding:22px 24px;margin:0}
+.formmsg h3{margin-bottom:6px}
+.formmsg p{margin:0;font-size:.97rem}
+.formmsg--ok{background:#E6F1EA;border:1px solid #B6D6C6;border-left:5px solid var(--green)}
+.formmsg--ok h3{color:var(--green)}
+.formmsg--ok p{color:#2C4A3B}
+.formmsg--err{background:#FBEDE9;border:1px solid #EBC9BE;border-left:5px solid #A8442A;margin-top:16px}
+.formmsg--err h3{color:#A8442A;font-size:1rem}
+.formmsg--err p{color:#7A3520}
+.formmsg--err a{color:#7A3520;font-weight:800}
+button[disabled]{opacity:.65;cursor:progress}
+
+/* final CTA */
+.final{background:var(--green);color:#fff;border-radius:var(--radius);padding:44px 34px;text-align:center}
+.final h2{color:#fff;max-width:22ch;margin-inline:auto}
+.final p{color:#CFE3D8;max-width:48ch;margin-inline:auto}
+.final .btn{margin-top:10px}
+.final small{display:block;margin-top:16px;color:#BBD3C6;font-size:.86rem}
+
+/* footer */
+.footer{background:var(--ink);color:#C6D2CC;padding:56px 0 30px;margin-top:8px}
+.footer h3{color:#fff;font-size:1rem;margin-bottom:14px}
+.footer a{color:#C6D2CC;text-decoration:none}
+.footer a:hover{color:#fff;text-decoration:underline}
+.footer__grid{display:grid;grid-template-columns:1.6fr 1fr 1.2fr;gap:36px}
+.footer ul{list-style:none;margin:0;padding:0}
+.footer li{margin-bottom:9px;font-size:.96rem}
+.footer .big{font-size:1.25rem;font-weight:800;color:#fff;display:inline-block;margin-bottom:6px}
+.footer__note{font-size:.86rem;color:#8FA39A;max-width:52ch;margin-top:14px}
+.footer__bar{margin-top:34px;padding-top:18px;border-top:1px solid #2A3630;font-size:.85rem;color:#8FA39A;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap}
+
+/* whatsapp float */
+.wa{
+  position:fixed;right:16px;bottom:22px;z-index:70;
+  width:56px;height:56px;border-radius:50%;background:#25D366;
+  display:grid;place-items:center;box-shadow:0 6px 20px rgba(0,0,0,.28);
+}
+.wa svg{width:30px;height:30px;fill:#fff}
+
+/* sticky mobile bar */
+.stickybar{
+  display:none;position:fixed;left:0;right:0;bottom:0;z-index:65;
+  background:var(--surface);border-top:1px solid var(--line);
+  padding:10px 14px calc(10px + env(safe-area-inset-bottom));
+  gap:10px;box-shadow:0 -4px 18px rgba(16,26,21,.12);
+}
+.stickybar .btn{flex:1}
+
+@media (max-width:960px){
+  .g3,.steps{grid-template-columns:repeat(2,1fr)}
+  .zones{grid-template-columns:repeat(2,1fr)}
+  .footer__grid{grid-template-columns:1fr 1fr;gap:28px}
+}
+@media (max-width:820px){
+  body{padding-bottom:86px}
+  .nav{display:none}
+  .announce .wrap{font-size:.83rem;gap:10px}
+  .header .wrap{min-height:62px}
+  .hero{padding:48px 0 56px}
+  .hero__plot{display:none}
+  .section{padding:48px 0}
+  .g3,.g2,.steps,.zones{grid-template-columns:1fr}
+  .footer__grid{grid-template-columns:1fr}
+  .stickybar{display:flex}
+  .wa{bottom:92px;width:52px;height:52px}
+  .final{padding:36px 22px}
+  .trust{gap:22px}
+}
+@media (prefers-reduced-motion:reduce){
+  *{animation:none!important;transition:none!important;scroll-behavior:auto!important}
+}
+</style>
+</head>
+<body>
+
+<!-- ============ 1. STICKY TOP BAR + HEADER ============ -->
+<div class="topwrap">
+  <div class="announce">
+    <div class="wrap">
+      <span class="dot" aria-hidden="true"></span>
+      <span>Site visits arranged 7 days a week. Calls answered 24/7.</span>
+      <a href="tel:+917483736358" data-cta="call" data-loc="topbar">+91 74837 36358</a>
+    </div>
+  </div>
+
+  <header class="header">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <span class="mark" aria-hidden="true">SDM</span>
+        <span>
+          <b>SDM Real Estate</b>
+          <span>Hyderabad property specialists</span>
+        </span>
+      </a>
+      <nav class="nav" aria-label="Main">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+        <a href="coverage.html">Coverage</a>
+        <a href="faq.html">FAQ</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <a class="btn btn--call btn--sm" href="tel:+917483736358" data-cta="call" data-loc="header">Call now</a>
+    </div>
+  </header>
+</div>
+
+<main>
+
+<!-- ============ 2. HERO ============ -->
+<section class="hero">
+  <div class="hero__plan" aria-hidden="true"></div>
+  <svg class="hero__plot" viewBox="0 0 400 300" fill="none" aria-hidden="true">
+    <g stroke="#fff" stroke-width="1.5">
+      <rect x="20" y="20" width="360" height="260"/>
+      <path d="M20 120h360M20 200h360M140 20v260M260 20v260"/>
+      <path d="M20 160h360" stroke-dasharray="6 8"/>
+    </g>
+    <rect x="146" y="126" width="108" height="68" fill="#C9A227" opacity=".85"/>
+  </svg>
+
+  <div class="wrap">
+    <h1>Find the right property in Hyderabad without the guesswork.</h1>
+    <p class="sub">Tell us your budget and your area. We shortlist what actually fits, and we drive you there.</p>
+
+    <ul class="usps">
+      <li>Only verified listings</li>
+      <li>Paperwork checked before you pay</li>
+      <li>Same-day site visits</li>
+    </ul>
+
+    <div class="hero__actions">
+      <a class="btn btn--call" href="tel:+917483736358" data-cta="call" data-loc="hero">Call +91 74837 36358</a>
+      <a class="btn btn--ghost" href="https://wa.me/917483736358?text=Hi%20SDM%20Real%20Estate%2C%20I%27m%20looking%20for%20a%20property%20in%20Hyderabad."
+         target="_blank" rel="noopener" data-cta="wa" data-loc="hero_whatsapp">Message on WhatsApp</a>
+    </div>
+
+    <!-- EDIT: replace these three numbers with your real figures before launch -->
+    <div class="trust">
+      <div><b>1,200+</b><span>families and investors placed since 2016</span></div>
+      <div><b>4.9 / 5</b><span>average client rating on Google</span></div>
+      <div><b>60 min</b><span>typical time to your first shortlist</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 3. WHY CHOOSE US ============ -->
+<section class="section" aria-labelledby="why">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="why">Why people call us first</h2>
+      <p class="lede">Buying property in Hyderabad is easy to get wrong. Here is how we keep you out of trouble.</p>
+    </div>
+
+    <div class="grid g3">
+      <article class="card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 2 3 6v6c0 5 3.8 8.6 9 10 5.2-1.4 9-5 9-10V6l-9-4Z"/><path d="m9 12 2 2 4-4"/></svg>
+        <h3>Verified listings only</h3>
+        <p>Every property is inspected and the owner confirmed before it reaches your shortlist. No bait listings.</p>
+      </article>
+
+      <article class="card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6Z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>
+        <h3>Title and RERA checks</h3>
+        <p>We read the documents before you sign anything: title chain, encumbrance, approvals and RERA status.</p>
+      </article>
+
+      <article class="card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>
+        <h3>Same-day site visits</h3>
+        <p>Call in the morning, see property the same evening. Pickup and drop arranged across the city.</p>
+      </article>
+
+      <article class="card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 21h18M5 21V9l7-5 7 5v12"/><path d="M10 21v-6h4v6"/></svg>
+        <h3>Hyderabad is all we do</h3>
+        <p>Fifteen years in this market. We know which corridors are ready to live in and which are still a promise.</p>
+      </article>
+
+      <article class="card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+        <h3>Clear, agreed fees</h3>
+        <p>You know our charges before we start. Nothing is added at the registration table.</p>
+      </article>
+
+      <article class="card">
+        <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg>
+        <h3>One person, start to finish</h3>
+        <p>The advisor who takes your first call handles your registration. You never repeat yourself.</p>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 4. SERVICES PREVIEW ============ -->
+<section class="section" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)" aria-labelledby="svc">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="svc">What we handle</h2>
+      <p class="lede">Whether you are buying your first flat or moving a portfolio, the process is the same: shortlist, verify, close.</p>
+    </div>
+
+    <div class="grid g2">
+      <a class="svc" href="services.html">
+        <h3>Buying a home</h3>
+        <p>Flats, villas and open plots matched to your budget, commute and possession timeline. Loan help included.</p>
+        <em>See how buying works</em>
+      </a>
+      <a class="svc" href="services.html">
+        <h3>Selling or resale</h3>
+        <p>Honest pricing, photography, listing and buyer screening, so you meet serious buyers instead of browsers.</p>
+        <em>See how selling works</em>
+      </a>
+      <a class="svc" href="services.html">
+        <h3>Rentals and leasing</h3>
+        <p>Homes for families and professionals, plus office and commercial space. Agreement and registration handled.</p>
+        <em>See rental options</em>
+      </a>
+      <a class="svc" href="services.html">
+        <h3>Investment advisory</h3>
+        <p>Where the growth actually is: ORR corridors, upcoming metro lines and pre-launch projects worth the risk.</p>
+        <em>See investment support</em>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 5. HOW IT WORKS ============ -->
+<section class="section" aria-labelledby="how">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="how">Three steps, no runaround</h2>
+    </div>
+    <div class="steps">
+      <div class="step">
+        <b>1</b>
+        <h3>Tell us what you need</h3>
+        <p>One call or WhatsApp message. Budget, preferred areas, timeline, loan status. Takes about ten minutes.</p>
+      </div>
+      <div class="step">
+        <b>2</b>
+        <h3>Get a shortlist and see it</h3>
+        <p>We send matching properties with real photos and honest notes, then arrange visits on a day that suits you.</p>
+      </div>
+      <div class="step">
+        <b>3</b>
+        <h3>Close it safely</h3>
+        <p>Negotiation, document verification, loan coordination and registration. We stay with you until the keys change hands.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 6. COVERAGE SNAPSHOT ============ -->
+<section class="section section--tight" aria-labelledby="cov">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="cov">Where we work</h2>
+      <p class="lede">Strongest in the western and northern growth corridors, active across the whole city.</p>
+    </div>
+
+    <div class="coverage">
+      <div class="zones">
+        <div class="zone">
+          <h3>West</h3>
+          <p>Gachibowli, Kondapur, Kokapet, Narsingi, Tellapur, Nanakramguda</p>
+        </div>
+        <div class="zone">
+          <h3>North</h3>
+          <p>Kompally, Medchal, Bachupally, Nizampet, Shamirpet</p>
+        </div>
+        <div class="zone">
+          <h3>East</h3>
+          <p>Uppal, Pocharam, Ghatkesar, LB Nagar, Nagole</p>
+        </div>
+        <div class="zone">
+          <h3>Central</h3>
+          <p>Banjara Hills, Jubilee Hills, Madhapur, Begumpet, Kukatpally</p>
+        </div>
+      </div>
+
+      <div class="coverage__foot">
+        <p>Looking somewhere else? We cover all of Hyderabad, Secunderabad and the ORR belt.</p>
+        <a class="btn btn--dark btn--sm" href="coverage.html">View full coverage</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 7. TESTIMONIALS ============ -->
+<!-- EDIT: replace with real, permission-given client reviews before launch -->
+<section class="section" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)" aria-labelledby="rev">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="rev">What clients say</h2>
+    </div>
+    <div class="grid g3">
+      <blockquote class="quote">
+        <div class="stars" aria-label="Rated 5 out of 5">★★★★★</div>
+        <p>They showed me four flats in one evening and told me honestly which two to skip. Registered in three weeks.</p>
+        <footer>Ravi K, bought a 3BHK in Kondapur</footer>
+      </blockquote>
+      <blockquote class="quote">
+        <div class="stars" aria-label="Rated 5 out of 5">★★★★★</div>
+        <p>I was in Bangalore the whole time. Video visits, documents on WhatsApp, and they handled the registration for me.</p>
+        <footer>Sneha M, invested in a plot near Shamirpet</footer>
+      </blockquote>
+      <blockquote class="quote">
+        <div class="stars" aria-label="Rated 5 out of 5">★★★★★</div>
+        <p>My earlier agent kept quoting different numbers. With SDM the fee was fixed on day one and it stayed that way.</p>
+        <footer>Imran S, sold a villa in Tellapur</footer>
+      </blockquote>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 8. MINI FAQ ============ -->
+<section class="section" aria-labelledby="faq">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="faq">Quick answers</h2>
+    </div>
+
+    <div class="faq">
+      <details>
+        <summary>Do you charge buyers a fee?</summary>
+        <p class="ans">Yes, and you will know the exact amount before we show you anything. It is a percentage of the deal value, agreed in writing at the start. Nothing is added later.</p>
+      </details>
+      <details>
+        <summary>How fast can I see a property?</summary>
+        <p class="ans">Usually the same day. Call before 2 pm and we will normally arrange visits for that evening, including pickup.</p>
+      </details>
+      <details>
+        <summary>Can you help if I am not in Hyderabad?</summary>
+        <p class="ans">Regularly. We do video walkthroughs, share documents on WhatsApp, and can complete registration with a power of attorney if you cannot travel.</p>
+      </details>
+      <details>
+        <summary>Do you verify legal documents?</summary>
+        <p class="ans">Every time. We check the title chain, encumbrance certificate, approvals and RERA registration, and flag anything that looks wrong before money moves.</p>
+      </details>
+    </div>
+
+    <p style="margin-top:22px"><a href="faq.html">Read all frequently asked questions</a></p>
+  </div>
+</section>
+
+<!-- ============ 8b. ENQUIRY FORM ============ -->
+<section class="section" style="background:var(--surface);border-top:1px solid var(--line);border-bottom:1px solid var(--line)" aria-labelledby="enquiry">
+  <div class="wrap">
+    <div class="head">
+      <h2 id="enquiry">Send us your requirement</h2>
+      <p class="lede">Three fields. We call you back on the number you leave, usually within the hour.</p>
+    </div>
+
+    <div class="formwrap">
+      <div class="form">
+        <!--
+          This form posts to a Google Apps Script web app, which writes the lead
+          to a Google Sheet and emails you. It works on GitHub Pages, Netlify or
+          any static host. Setup steps are in Code.gs.
+          Paste your deployed URL into SDM_FORM_ENDPOINT at the bottom of this file.
+        -->
+        <form id="homeEnquiryForm" novalidate>
+          <p class="hp">
+            <label>Leave this field empty: <input name="bot_field" tabindex="-1" autocomplete="off"></label>
+          </p>
+
+          <div class="field">
+            <label for="h-name">Your name</label>
+            <input type="text" id="h-name" name="name" autocomplete="name" placeholder="Full name" required>
+          </div>
+
+          <div class="field">
+            <label for="h-phone">Phone number <span class="hint">— we will call you on this</span></label>
+            <input type="tel" id="h-phone" name="phone" autocomplete="tel" inputmode="tel"
+                   placeholder="+91 XXXXX XXXXX" pattern="[0-9+ ()-]{8,20}" required>
+          </div>
+
+          <div class="field">
+            <label for="h-message">What are you looking for? <span class="hint">— budget, area, timeline</span></label>
+            <textarea id="h-message" name="message" placeholder="Example: 3BHK in Kondapur, budget around 1.2 Cr, possession by March."></textarea>
+          </div>
+
+          <button class="btn btn--dark btn--block" type="submit" data-form="home-enquiry">Send enquiry</button>
+
+          <p class="formnote">We use your number only to reply to this enquiry. No marketing calls, no sharing with builders.</p>
+        </form>
+
+        <div class="formmsg formmsg--ok" id="homeEnquiryForm-success" role="status" hidden>
+          <h3>Got it. We will call you shortly.</h3>
+          <p>Your enquiry is with us. If it is urgent, call <a href="tel:+917483736358" data-cta="call" data-loc="form_success">+91 74837 36358</a> and we will pick up.</p>
+        </div>
+
+        <div class="formmsg formmsg--err" id="homeEnquiryForm-error" role="alert" hidden>
+          <h3>That did not send</h3>
+          <p></p>
+        </div>
+      </div>
+
+      <div class="formside">
+        <h3>In a hurry?</h3>
+        <p>Good listings in Hyderabad move within days. A call gets you an answer in minutes; the form is answered within one working day.</p>
+        <a class="num" href="tel:+917483736358" data-cta="call" data-loc="form_side">+91 74837 36358</a>
+        <a class="btn btn--call btn--block" href="tel:+917483736358" data-cta="call" data-loc="form_side_button">Call instead</a>
+        <p style="margin:14px 0 0;font-size:.92rem;color:var(--ink-soft)">Or <a href="https://wa.me/917483736358?text=Hi%20SDM%20Real%20Estate%2C%20I%27m%20looking%20for%20a%20property."
+           target="_blank" rel="noopener" data-cta="wa" data-loc="form_side_whatsapp">message us on WhatsApp</a>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 9. FINAL CTA ============ -->
+<section class="section section--tight">
+  <div class="wrap">
+    <div class="final">
+      <h2>The good ones go fast. Start with a call.</h2>
+      <p>Tell us your budget and area today, and we will send you a shortlist worth looking at.</p>
+      <a class="btn btn--call" href="tel:+917483736358" data-cta="call" data-loc="final">Call +91 74837 36358</a>
+      <small>Available 24/7. Prefer to type? <a href="https://wa.me/917483736358" target="_blank" rel="noopener" data-cta="wa" data-loc="final_whatsapp" style="color:#fff">Message us on WhatsApp</a></small>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ============ 10. FOOTER ============ -->
+<footer class="footer">
+  <div class="wrap">
+    <div class="footer__grid">
+      <div>
+        <h3>SDM Real Estate</h3>
+        <a class="big" href="tel:+917483736358" data-cta="call" data-loc="footer">+91 74837 36358</a><br>
+        <a href="mailto:sdmrealestate@gmail.com">sdmrealestate@gmail.com</a>
+        <p class="footer__note">Buying, selling, renting and investment advice across Hyderabad, Secunderabad and the ORR corridor. Calls answered 24/7, site visits seven days a week.</p>
+      </div>
+
+      <div>
+        <h3>Pages</h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="coverage.html">Coverage</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3>Service note</h3>
+        <ul>
+          <li>Areas served: all of Hyderabad and Secunderabad</li>
+          <li>Hours: enquiries answered 24/7</li>
+          <li>Site visits: 7 days a week, by appointment</li>
+          <li><a href="https://wa.me/917483736358" target="_blank" rel="noopener" data-cta="wa" data-loc="footer_whatsapp">WhatsApp us</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer__bar">
+      <span>© <span id="yr">2026</span> SDM Real Estate. All rights reserved.</span>
+      <span>Hyderabad, Telangana, India</span>
+    </div>
+  </div>
+</footer>
+
+<!-- floating WhatsApp -->
+<a class="wa" href="https://wa.me/917483736358?text=Hi%20SDM%20Real%20Estate%2C%20I%27d%20like%20to%20know%20more."
+   target="_blank" rel="noopener" aria-label="Chat with SDM Real Estate on WhatsApp"
+   data-cta="wa" data-loc="whatsapp">
+  <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.22h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 2.2 0 4.27.86 5.83 2.42a8.2 8.2 0 0 1 2.41 5.83c0 4.54-3.7 8.23-8.24 8.23Zm4.52-6.16c-.25-.13-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.17.24-.64.8-.79.97-.14.16-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.01-.38.11-.5.11-.11.25-.29.37-.44.13-.14.17-.25.25-.41.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.4-.42-.56-.43h-.47c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07s.9 2.4 1.02 2.56c.12.17 1.75 2.67 4.25 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.47-.07 1.47-.6 1.68-1.18.21-.58.21-1.07.14-1.18-.06-.11-.22-.17-.47-.29Z"/></svg>
+</a>
+
+<!-- sticky mobile bar -->
+<div class="stickybar">
+  <a class="btn btn--call" href="tel:+917483736358" data-cta="call" data-loc="sticky">Call now</a>
+  <a class="btn btn--dark" href="https://wa.me/917483736358" target="_blank" rel="noopener" data-cta="wa" data-loc="sticky_whatsapp">WhatsApp</a>
+</div>
+
+<script>
+(function () {
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  document.addEventListener('click', function (e) {
+    var el = e.target.closest('[data-cta]');
+    if (!el) return;
+    var loc = el.getAttribute('data-loc') || 'unknown';
+    if (el.getAttribute('data-cta') === 'call') {
+      window.dataLayer.push({ event: 'call_now_click', cta_location: loc });
+    } else {
+      window.dataLayer.push({ event: 'whatsapp_click', cta_location: 'whatsapp', cta_placement: loc });
+    }
+  }, { passive: true });
+})();
+</script>
+
+<!-- ==========================================================
+     ENQUIRY FORM HANDLER  (Google Apps Script backend)
+     Paste your deployed Web app URL below. See Code.gs for setup.
+     ========================================================== -->
+<script>
+(function () {
+
+  /* ---- PASTE YOUR APPS SCRIPT WEB APP URL BETWEEN THE QUOTES ----
+     Must look like:
+     https://script.google.com/macros/s/AKfycb..................../exec
+     Ending in /exec, NOT /dev.                                     */
+  var SDM_FORM_ENDPOINT = 'https://script.google.com/macros/s/AKfycbzgmgnVnXkWiy8DClyv78DsXcwM9_XjWhSzygvwp3ogGm_Q3GICdLFpfVOT2-gTrEmJmQ/exec';
+
+  var form = document.getElementById('homeEnquiryForm');
+  if (!form) return;
+
+  var btn     = form.querySelector('button[type="submit"]');
+  var errBox  = document.getElementById('homeEnquiryForm-error');
+  var okBox   = document.getElementById('homeEnquiryForm-success');
+  var btnText = btn ? btn.textContent : 'Send enquiry';
+
+  function showError(msg) {
+    if (!errBox) return;
+    errBox.querySelector('p').innerHTML = msg +
+      ' Or call <a href="tel:+917483736358" data-cta="call" data-loc="form_error">+91 74837 36358</a> instead.';
+    errBox.hidden = false;
+    if (btn) { btn.disabled = false; btn.textContent = btnText; }
+  }
+
+  function showSuccess() {
+    window.dataLayer.push({ event: 'form_submit', cta_location: 'home_form' });
+    if (okBox) {
+      form.hidden = true;
+      okBox.hidden = false;
+      okBox.setAttribute('tabindex', '-1');
+      okBox.focus();
+    }
+  }
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+
+    if (!form.reportValidity()) return;
+
+    // Accepts both URL shapes Apps Script produces:
+    //   personal Gmail : https://script.google.com/macros/s/AKfyc.../exec
+    //   Workspace      : https://script.google.com/a/macros/DOMAIN/s/AKfyc.../exec
+    if (!/^https:\/\/script\.google\.com\/(a\/macros\/[^\/]+\/)?(macros\/)?s\/[^\/]+\/exec/.test(SDM_FORM_ENDPOINT)) {
+      console.error('SDM: SDM_FORM_ENDPOINT does not look like an Apps Script /exec URL. Current value:', SDM_FORM_ENDPOINT);
+      showError('This form is not connected yet.');
+      return;
+    }
+
+    if (errBox) errBox.hidden = true;
+    if (btn) { btn.disabled = true; btn.textContent = 'Sending...'; }
+
+    var body = new URLSearchParams(new FormData(form));
+    body.append('page', 'index.html (home)');
+    body.append('referrer', document.referrer || '');
+    body.append('lead_id', Date.now().toString(36) + Math.random().toString(36).slice(2, 8));
+
+    /* Sent in no-cors mode deliberately.
+       Apps Script replies through a redirect that browsers will not expose to
+       the page, so trying to READ the reply fails even when the lead has been
+       saved perfectly. We therefore fire the request and do not read the reply.
+       The request itself always arrives, so the row is written.
+       Your Google Sheet is the record of truth: if a row is there, it worked.
+       URLSearchParams keeps this a "simple" request, which no-cors allows. */
+    fetch(SDM_FORM_ENDPOINT, { method: 'POST', mode: 'no-cors', body: body })
+      .then(function () {
+        showSuccess();
+      })
+      .catch(function (err) {
+        console.error('SDM: submission failed.', err);
+        showError('We could not reach our server. Please check your connection and try again.');
+      });
+  });
+})();
+</script>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "@id": "https://sdmrealestate.com/#business",
+  "name": "SDM Real Estate",
+  "url": "https://sdmrealestate.com/",
+  "image": "https://sdmrealestate.com/og-image.jpg",
+  "telephone": "+91-74837-36358",
+  "email": "sdmrealestate@gmail.com",
+  "priceRange": "₹₹",
+  "description": "Property buying, selling, rentals and investment advisory across Hyderabad. Verified listings, document verification and same-day site visits.",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Hyderabad",
+    "addressRegion": "Telangana",
+    "addressCountry": "IN"
+  },
+  "areaServed": [
+    { "@type": "City", "name": "Hyderabad" },
+    { "@type": "City", "name": "Secunderabad" }
+  ],
+  "openingHoursSpecification": [{
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "00:00",
+    "closes": "23:59"
+  }],
+  "contactPoint": [{
+    "@type": "ContactPoint",
+    "telephone": "+91-74837-36358",
+    "contactType": "sales",
+    "areaServed": "IN",
+    "availableLanguage": ["English","Telugu","Hindi"]
+  }]
+}
+</script>
+
+</body>
+</html>
